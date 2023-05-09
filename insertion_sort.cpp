@@ -30,7 +30,7 @@ int n;   //variable for get number
 cout<<"Enter Number of array = ";
 cin>>n;
 
-
+int a[n];   //Define array
 
 
 
