@@ -30,6 +30,9 @@ int n;   //variable for get number
 cout<<"Enter Number of array = ";
 cin>>n;
 
+//Seperator 
+cout<<endl<<"--------------------"<<endl;
+
 int a[n];   //Define array
 
 //Loop for get value of array random number 1~100
@@ -46,6 +49,7 @@ for(int j=0; j<n; ++j)
 {
 
 cout<<"a["<<j<<"] = "<<a[j];
+cout<<endl;
 
 }
 
