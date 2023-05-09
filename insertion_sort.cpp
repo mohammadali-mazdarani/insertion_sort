@@ -26,6 +26,11 @@ int main(int argc, char** argv)
 
 int n;   //variable for get number
 
+//Get number of index array
+cout<<"Enter Number of array = ";
+cin>>n;
+
+
 
 
 
