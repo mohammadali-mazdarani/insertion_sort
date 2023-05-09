@@ -76,7 +76,13 @@ for(int i=1;i<n;++i)
 //Seperator
 cout<<endl<<endl<<"--------------------------"<<endl;
 
+cout<<"show array after insertion sort :"<<endl;
 
+for(int i=0; i<n; ++i)
+{
+    cout<<"a["<<i<<"] = "<<a[i];
+    cout<<endl;
+}
 
 
 getch();
