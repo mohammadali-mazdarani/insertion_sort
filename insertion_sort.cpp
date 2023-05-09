@@ -73,7 +73,8 @@ for(int i=1;i<n;++i)
     }
 }
 
-
+//Seperator
+cout<<endl<<endl<<"--------------------------"<<endl;
 
 
 
