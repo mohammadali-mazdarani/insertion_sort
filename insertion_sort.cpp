@@ -32,6 +32,16 @@ cin>>n;
 
 int a[n];   //Define array
 
+//Loop for get value of array random number 1~100
+for(int i=0; i<n; ++i)
+{
+    
+a[i] = rand()%100;
+
+}
+
+
+
 
 
 
