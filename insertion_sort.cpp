@@ -36,7 +36,16 @@ int a[n];   //Define array
 for(int i=0; i<n; ++i)
 {
     
-a[i] = rand()%100;
+a[i] = rand() % 100;
+
+}
+
+//Show the value of array
+
+for(int j=0; j<n; ++j)
+{
+
+cout<<"a["<<j<<"] = "<<a[j];
 
 }
 
