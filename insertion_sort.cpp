@@ -70,6 +70,8 @@ for(int i=1;i<n;++i)
      
      else break;
 
+     a[ j + 1 ] = key;
+
     }
 }
 
