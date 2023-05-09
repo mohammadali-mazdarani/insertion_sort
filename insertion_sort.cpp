@@ -53,6 +53,26 @@ cout<<endl;
 
 }
 
+//Sepetator
+cout<<endl<<"-------------------------"<<endl;
+
+//Sort this array
+for(int i=1;i<n;++i)
+{
+    int j;
+    int key = a[ i ];
+    for( j=i-1; j>=0; j-- )
+    {
+    if(a[ j ] > key)
+    {
+        a[ j + 1 ] = a[ j ];
+    }
+     
+     else break;
+
+    }
+}
+
 
 
 
